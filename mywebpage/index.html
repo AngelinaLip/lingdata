@@ -11,20 +11,77 @@
 		<meta name="description" content="Личная страница и контакты">   
 
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
 		<style>
-		h1 {
-			font-family: 'Brush Script MT',
-			cursive;
-		}
-		h3 {
-			color: burlywood;
-		}
+			h1 {
+				font-family: Georgia, serif;
+				font-size:32px;
+				font-weight: bold;
+			}
+				
+			h3 {
+				font-family: Georgia, serif;
+				font-size:22px;
+				font-weight: bold;
+				color: #3D2F1D;
+				  
+			}
+			
+			h4 {
+				font-family: Georgia, serif;
+				font-size:22px;
+				line-height:22px;
+				color: #3D2F1D;
+				  
+			}
+
+			p {
+				font-family: Georgia, serif;
+				font-size:17px;
+				line-height: 22px;
+				color: #3D2F1D;				
+			}
+			
+			a:link {
+				color: #3D2F1D;
+				background-color: transparent;
+				text-decoration: none;
+				font-family: Georgia, serif;
+				font-size:17px;
+				line-height: 22px;
+			}
+			a:visited {
+				color: #3D2F1D;
+				background-color: transparent;
+				text-decoration: none;
+				font-family: Georgia, serif;
+				font-size:17px;
+				line-height: 22px;
+			}
+			
+			a:hover {
+				color: burlywood;
+				background-color: transparent;
+				text-decoration: none;
+				font-family: Georgia, serif;
+				font-size:17px;
+				line-height: 22px;
+			}
+			
+			a:active {
+				color: burlywood;
+				background-color: transparent;
+				text-decoration: none;
+				font-family: Georgia, serif;
+				font-size:17px;
+				line-height: 22px;
+			}
+				
 		</style>
 	</head>
 	
 	<body>
 
-<!-- меню (navigation bar) -->
 
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
 
@@ -36,70 +93,80 @@
 					<ul class="nav navbar-nav navbar-right"> 
 						<li> <a style="color: black;" href="https://lingvocodes.github.io/HSEinfo/ba-ling-2024/index.html">Страничка курса</a> </li> 
 						<li> <a style="color: black;" href="https://lingvocodes.github.io/HSEinfo/ba-ling-2024/baling_2024_lat3.html">Страничка группы</a> </li> 
-<!-- поправьте номер группы в URL, если нужно (от 1 до 4) -->
 					</ul>
 				</nav> 
 			</div>
 		</nav>
 
-<!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
 		<header style="background-color:burlywood; padding-top:50px; "> 
 			<div class="container"> 
 				<div class="row">
 					<div class="col-md-4">
 						<br><br>
-<!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
 						<h1>Ангелина Липина</h1>
-						<hr> 
-						<p> Всё возможно. На <i>невозможное</i> просто требуется <b>чуть больше времени</b>.</p> 
+						<hr style="color:black;"> 
+						<h4> <b>Всё возможно.</b> <br>
+						На <i>невозможное</i> просто требуется <b>чуть больше времени</b>.<br>
+						 <br>
+						   <br>
+						   <br>
+						Верьте в себя!
+						
+						</h4> 
 					</div>
 					<div class="col-md-4">
-<!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="https://github.com/AngelinaLip/lingdata/blob/main/mywebpage/myphoto.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
+					<img src="myphotoadd.jpg" style="height:320px; margin:20px 70px 20px 10px; float: right; " >
 					</div>
+					<div class="col-md-4">
+						<img src="myphoto.jpg" style="height:320px; margin:20px 175px 20px 0px; float:right; " >
+					</div>
+				
+					
+					
 				</div>
 			</div>
 		</header>
 
-<!-- часть страницы, которая под шапкой -->
 		<section id="portfolio">
 			<div class="container">
 
-<!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
 				<div class="col-md-3">
 				<h3>Чай. Кошка. Мандельштам.</h3>
-				<img src="https://github.com/AngelinaLip/lingdata/blob/main/mywebpage/%D0%BA%D0%BE%D1%82%D0%BA%D0%BE%D1%82.jpg" alt="catcat" width="220" height="300" />
+				<img src="коткот.jpg" alt="catcat" width="220" height="330" />
 					
 				</div>
 
 				<div class="col-md-6">
 					<article>
 						<h3>Немного о жизни</h3>
-						<p>Как я оказалась на ФиКЛе? Вопрос хороший. <br>
-						Сначала был русский язык четвертого класса и диктант на пятерку. <br>
-						Потом удивление преподавательницы, почему мы не знаем, что такое фонетика. <br>
-						Начались школьные олимпиады. Очень много олимпиад. <br>
+						<p><b>Как я оказалась на ФиКЛе? Вопрос хороший.</b> <br>
+						Сначала был <i>русский язык</i> четвертого класса и диктант на пятерку. <br>
+						Потом удивление преподавательницы, почему мы не знаем, что такое <i>фонетика</i>. <br>
+						Начались школьные олимпиады. <i>Очень много олимпиад</i>. <br>
 						Вдруг появилось желание стать ювелиром. Олимпиады пропали. <br>
 						Не переживайте, они скоро вернуться. Уже вернулись, пропало желание стать ювелиром. <br>
-						Случился Сириус и удивительные люди. <br>
-						Неожианный всерос, и люди стали еще более удивительными.<br>
-						И вот я здесь.</p>
+						Случился Сириус и <i>удивительные</i> люди. <br>
+						Неожиданный всерос, и люди стали <i>еще более удивительными</i>.<br>
+						И вот я <b>здесь</b>.</p>
 					</article>
 				</div>
 
 				<div class="col-md-3">
 					<article>
 						<h3>Кто?</h3>
-						<p><b>Весы</b> по Знаку Зодиака, <b>Командир/Mенеджер</b> по MBTI</p>
+						<p>Весы <i>по Знаку Зодиака</i>, Командир/Mенеджеp <i>по MBTI</i></p>
 					</article>
 					<article>
 						<h3>Где?</h3>
-						<p>Фундаментальная и прикладная лингвистика, НИУ ВШЭ, Москва</p>
+						<p>Фундаментальная и компьютерная лингвистика, НИУ ВШЭ, Москва</p>
+					</article>
+					<article>
+						<h3>Почему?</h3>
+						<p>Не потому, что это легко, а потому что трудно.</p>
 					</article>
 					<article>
 						<h3>Откуда?</h3>
-<!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста -->
 						<p>Школа №6 г. Воткинска, Удмуртия</p>
 					</article>
 
@@ -107,10 +174,10 @@
 			</div>
 		</section>
 
-<!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
 		<footer class="bs-docs-footer"> 
 			<div class="container">  
 				
+				<hr style="color: black;">
 				<h4>Куда стучаться, чтобы постучали в ответ?</h4>
 				<ul>
 						<li> <a href= "https://t.me/vertantique" > Telegram </a> </li>
