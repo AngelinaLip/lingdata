@@ -999,5 +999,5 @@
 <word pos="DET" lemma="allur" />allt</word>
 <word pos="NOUN" lemma="hús" />húsið</word>
 
-поиск: (.+)(\t)(.+)(\t)(.+)\n
-замена на + замена формата конца строки: <word pos="\5" lemma="\3" />\1</word>\r\n
+поиск: (.+)(\t)(.+)(\t)(.+)
+замена на + замена формата конца строки: <word pos="\5" lemma="\3" />\1</word>
