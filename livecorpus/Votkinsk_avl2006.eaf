@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-09-30T21:48:14+04:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-10-01T19:20:05+04:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,74 +7,98 @@
             MEDIA_URL="file:///C:/Users/JVO/Downloads/Telegram Desktop/Votkinsk_avl2006.avi"
             MIME_TYPE="video/*" RELATIVE_MEDIA_URL="../Downloads/Telegram Desktop/Votkinsk_avl2006.avi"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:476ec260-c753-4784-b577-2e9c3cb3cd13</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">18</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">22</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="66076"/>
-        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="68000"/>
-        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="68568"/>
-        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="72691"/>
-        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="72802"/>
-        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="78941"/>
-        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="79162"/>
-        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="79622"/>
-        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="80508"/>
-        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="82295"/>
-        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="83079"/>
-        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="84116"/>
-        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="84311"/>
-        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="89020"/>
-        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="89174"/>
-        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="96498"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="67379"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="67507"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="68057"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="68545"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="71265"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="71469"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="72659"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="72802"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="78941"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="79162"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="79392"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="80508"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="82076"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="83079"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="84116"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="84311"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="89020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="89174"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="89555"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="89611"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="96427"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="AngelinaLip" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@avl2006f" TIER_ID="text@avl2006f">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
                 TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
-                <ANNOTATION_VALUE>да / у нас есть / эээ</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>да / у нас есть </ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18"
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19"
                 TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
-                <ANNOTATION_VALUE>музей-усадьба Петра Ильича Чайковского / это такой небольшой домик / ааа / двухэтажный// </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE> эээ</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>музей-усадьба Петра Ильича Чайковского / это такой небольшой домик </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>ааа / двухэтажный</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
-                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
                 <ANNOTATION_VALUE> но вокруг него есть прям / сад / с деревьями / с= / там даже есть конюшни </ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
-                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
                 <ANNOTATION_VALUE>вот</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
-                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
-                <ANNOTATION_VALUE>клумбы очень классные бархатцы</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>клумбы / очень классные бархатцы</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
-                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
                 <ANNOTATION_VALUE>в общем / ээа</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
-                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
                 <ANNOTATION_VALUE>у нас также недавно открыли парк / Времена года // ну / собственно / в честь Петра Ильича Чайковского</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
-                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
-                <ANNOTATION_VALUE>аа / там / даже есть маленький домик для уточек // и / осенью туда очень классно ходить / наблюдать / как падают листья с деревьев</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>аа </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>там / даже есть маленький домик для уточек // и / осенью туда очень классно ходить / наблюдать / как падают листья с деревьев</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
     </TIER>
